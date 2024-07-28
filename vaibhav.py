@@ -186,7 +186,7 @@ def add_user(message):
                     user_access[user_to_add] = {"expiry_time": expiry_timestamp}
                     # Save user access data
                     save_user_access(user_access)
-                    response = f"User {user_to_add} approved for {time_value} {time_unit} by @katilboyshahdil12786.\n\n\n 🅑🅞🅣 🅛🅘🅝🅚: @BOOMBAMCHEAT_BOT"
+                    response = f"User {user_to_add} approved for {time_value} {time_unit} by @katilboyshahdil12786.\n\n\n 🅑🅞🅣 🅛🅘🅝🅚: @@Shahdilkaddos_bot"
                 else:
                     response = "User already exists."
             except ValueError:
